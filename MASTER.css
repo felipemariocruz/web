@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('fondo.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: #000000; /* negro sólido */
+    padding: 2rem;
+    border-radius: 12px;
+    width: 320px;
+    position: relative;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+     border-radius: 0; /* sin esquinas redondeadas */
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #c00;
+    padding: 10px;
+    position: absolute;
+    top: -40px;
+    left: calc(50% - 40px);
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+    background-color: #e84118;
+    border: none;
+    border-radius: 25px;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #c23616;
+}
+
+.links {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #ccc;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.login-box a:hover {
+    color: #fff;
+}
